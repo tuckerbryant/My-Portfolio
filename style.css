@@ -1,0 +1,85 @@
+/*sets the content to fill different sized screens */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+/* sets all html elements to border-box sizing and sets all of the charaters to the font "georgia" */
+html {
+  box-sizing: border-box;
+  font-family: georgia;
+}
+/* changes the background color of the page */
+body {
+  background-color:#e5f7fe;
+}
+
+/* adds space around the content in the main section */
+main {
+  padding: 10%;
+  padding-top:10px;
+  padding-bottom: 5%;
+}
+/* sets the space between the bottom of the intro container and the next element */
+.intro {
+  margin-bottom: 40px;
+}
+/* centers the image in its container, rounds the edges, adds a gray border, and sets the space between the bottom of the img element and the next element */
+.tucker-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 2px solid #40434E;
+  margin-bottom: 12px;
+
+}
+/* styles the intro section of the page; centers the text, sets the background color, changes the font size, and brings the content near the edges of its container */
+header {
+  text-align: center;
+  padding: 1px;
+  background-color: #8AA2A9;
+  margin-bottom: 1px;
+  font-size: 30px;
+}
+/* sets the space around the content in the footer of the page */
+footer {
+  padding-left: 10%;
+  padding-bottom: 10px;
+  padding-right: 10%;
+}
+/* aligns the bulleted list to the left of its container */
+ul {
+  text-align: left;
+}
+/* aligns the numbered list to the left of its container */
+ol {
+  text-align: left;
+}
+
+/* changes the color of the horizonal lines and makes them thicker */
+hr {
+ border: 1px solid #40434E;
+}
+
+/* aligns the text in the center of the container */
+h2 {
+  text-align: center;
+}
+
+/* makes the links different colors when different actions are taken */
+a:link {
+  color:darkblue;
+}
+
+a:visited {
+ color:darkgreen;
+}
+
+a:hover {
+  color:darkred
+}
+
+
+a:active {
+  color:darkorange
+}
